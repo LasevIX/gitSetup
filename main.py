@@ -10,5 +10,7 @@ def main():
     fileContent =filer.read()
     print(fileContent)
     filer.close()
+    if input("do you want more? Y/N").lower()=="y":
+        print("Good. more will come later.")
 #boilerplate
 main()
